@@ -19,7 +19,13 @@ Available commands for the toy robot:
 
 <b>EXIT</b>               - exit the application
 
---
+
 ## Setup
+Pre-requisites:
+- Maven is installed (see https://maven.apache.org/install.html for details)
+- JAVA_HOME environment variable is defined
+
 1. Clone the repo, and do a 'mvn clean install' on the command line
 2. Under target/, run the generated jar using 'java -jar ToyRobot-1.0-SNAPSHOT.jar'
+
+NOTE: As an alternative, pre-built jar file (ToyRobot-1.0-SNAPSHOT.jar) is also included under the target/ dir
