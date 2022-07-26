@@ -26,6 +26,6 @@ Pre-requisites:
 - JAVA_HOME environment variable is defined
 
 1. Clone the repo, and do a 'mvn clean install' on the command line
-2. Under target/, run the generated jar using 'java -jar ToyRobot-1.0-SNAPSHOT.jar'
+2. To run the app, perform 'mvn exec:java'
 
-NOTE: As an alternative, Step 1 can be skipped. Included pre-built jar file under the target/ dir can be used for Step 2
+NOTE: As an alternative, one can execute 'java -jar ToyRobot-1.0-SNAPSHOT.jar'. Pre-built jar file is included under the target/ dir
